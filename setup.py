@@ -6,11 +6,10 @@ setup(
     packages=find_packages(),
     install_requires=[
         'Pillow',
-        'tk',
     ],
     entry_points={
         'console_scripts': [
-            'divadivamodule = divadivamodule',
+            'divadivamodule = divadivamodule:__file__', #i swear to god if this does not work i will kill everyone on this planet
         ],
     },
 )
