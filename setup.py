@@ -9,7 +9,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'divadivamodule = divadivamodule:__file__', #i swear to god if this does not work i will kill everyone on this planet
+            'divadivamodule = run_divadivamodule:main',  
         ],
     },
 )
