@@ -1,0 +1,2 @@
+include images/*
+include modules_data.csv
