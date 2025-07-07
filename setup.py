@@ -6,15 +6,11 @@ setup(
     packages=find_packages(),
     install_requires=[
         'Pillow',
-        'tkinter',
+        'tk',
     ],
     entry_points={
         'console_scripts': [
             'divadivamodule = divadivamodule',
         ],
-    },
-    include_package_data=True,
-    package_data={
-        '': ['images/*', 'divadivamodule.py', 'modules_data.csv'],
     },
 )
