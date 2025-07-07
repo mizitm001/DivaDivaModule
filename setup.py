@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'divadivamodule = divadivamodule:main',
+            'divadivamodule = divadivamodule',
         ],
     },
     include_package_data=True,
