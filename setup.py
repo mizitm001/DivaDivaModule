@@ -15,6 +15,6 @@ setup(
     },
     include_package_data=True,
     package_data={
-        '': ['images/*', 'divadivamodule.py', 'module_data.csv'],
+        '': ['images/*', 'divadivamodule.py', 'modules_data.csv'],
     },
 )
